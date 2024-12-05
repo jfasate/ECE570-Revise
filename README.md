@@ -37,6 +37,8 @@ python3 main.py
 ```
 - To customize training/model arguments, modify ```common.py```. Arguments are automatically loaded to ```main.py```.
 
+Please contact if found any issue.
+
 ## Baseline models
 
 This repository also contains Pytorch implementation of the following models, which we use as baselines: 
