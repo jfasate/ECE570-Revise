@@ -37,6 +37,11 @@ python3 main.py
 ```
 - To customize training/model arguments, modify ```common.py```. Arguments are automatically loaded to ```main.py```.
 
+To visualize
+```
+python3 results_visualization.py
+```
+
 Please contact if found any issue.
 
 ## Baseline models
