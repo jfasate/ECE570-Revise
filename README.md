@@ -15,7 +15,11 @@ It is highly advisable to install the below requirement manually. As it work per
 
 - Requirements: python3, pytorch, gdal, sklearn.
 
-Before runing. Please set the correct path in common.py as guided below:
+## Data
+Data files are available at [this Google Drive site](https://drive.google.com/drive/folders/1urY6Pjba3mStDcRphIfkNf50295aW2o2?usp=sharing), which can be directly used in this code.
+
+## Run
+Here in this repository there is no data folder, please create the data folder and as you must have downloaded the data file from above, please take all the .mat file from folder and paste them directly inside the data folder. Before runing. Please set the correct path in common.py as guided below:
 
 In Config class of ``` common.py``` please set path as:
 
@@ -43,9 +47,6 @@ This repository also contains Pytorch implementation of the following models, wh
 - _Two-branch CNN_ (_TB-CNN_): A two-branch CNN architecture for feasture fusion with HSI and other remote scensing imagery. [[Paper]](https://ieeexplore.ieee.org/abstract/document/8068943): "Multisource Remote Sensing Data Classification Based on Convolutional Neural Network" [[Official Tensorflow implementation]](https://github.com/Hsuxu/Two-branch-CNN-Multisource-RS-classification)
 
 Implementation of these models can be found at ```model/baseline/```. 
-
-## Data
-We made some modifications (merely tif→numpy, stacking) to the original data files. Our data files are available at [this Google Drive site](https://drive.google.com/drive/folders/1urY6Pjba3mStDcRphIfkNf50295aW2o2?usp=sharing), which can be directly used in this code. Please note that we used channel-wise normalization AFTER loading these files, and this step is already implemented in our code. 
 
 
 ## Citation
